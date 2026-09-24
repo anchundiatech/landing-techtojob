@@ -6,5 +6,5 @@ export type Language = keyof typeof languages;
 export type Messages = typeof es;
 
 export function getMessages(language: Language = "es"): Messages {
-  return languages[language] as Messages;
+  return languages[language];
 }
