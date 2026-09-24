@@ -8,7 +8,6 @@ export function Newsletter({ content }: { content: Messages["newsletter"] }) {
     >
       <div className="shell">
         <div className="newsletter-inner">
-          <p className="eyebrow">{content.eyebrow}</p>
           <h2 id="newsletter-title">{content.title}</h2>
           <p>{content.description}</p>
           <form action="#newsletter-success">
