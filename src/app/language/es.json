@@ -6,11 +6,11 @@
   "accessibility": {
     "mainNavigation": "Navegación principal",
     "communityLinks": "Enlaces de comunidad",
-    "home": "inicio"
+    "home": "Inicio"
   },
   "metadata": {
-    "title": "TechToJob | Comunidad y oportunidades tech",
-    "description": "La comunidad donde desarrolladores y empresas se conocen construyendo proyectos reales."
+    "title": "TechToJob | Comunidad de desarrolladores y empresas tech",
+    "description": "Comunidad de desarrolladores y empresas tech en español. Participa en torneos, comparte proyectos, haz networking y descubre oportunidades."
   },
   "nav": {
     "howItWorks": "Cómo funciona",
@@ -22,18 +22,16 @@
     "discord": "Entrar al Discord"
   },
   "hero": {
-    "eyebrow": "Una comunidad técnica para moverte con criterio",
-    "title": "Haz que tu forma de trabajar se vea",
-    "titleAccent": "se vea",
-    "description": "TechToJob reúne a quienes programan y a los equipos que buscan colaborar. Participas en conversaciones, resuelves retos y dejas señales útiles sobre lo que sabes hacer.",
+    "title": "Que te conozcan antes de contratarte",
+    "titleAccent": "antes de contratarte",
+    "description": "En TechToJob no empiezas enviando CVs. Entras a la comunidad, participas en conversaciones, construyes proyectos y muestras cómo trabajas. Las oportunidades empiezan con lo que haces.",
     "cta": "Entrar al Discord",
-    "secondaryCta": "Ver cómo funciona",
-    "code": "const status = 'shipping';",
-    "codeNote": "Aprobado por el jurado comunitario",
-    "messageTitle": "Tech Lead en Fintech",
-    "messageNote": "Vio tu Pull Request en el reto",
-    "message": "Nos encantó cómo estructuraste el estado. ¿Hablamos mañana?",
-    "caption": "Despegue sin intermediarios",
+    "code": "const developer = { building: true };",
+    "codeNote": "Proyecto compartido con la comunidad",
+    "messageTitle": "Empresa tech",
+    "messageNote": "Vio tu trabajo en el reto",
+    "message": "Nos gustó cómo resolviste el problema. ¿Hablamos?",
+    "caption": "Tu trabajo también habla por ti",
     "codeRain": [
       "</>",
       "const",
@@ -51,62 +49,60 @@
     "clouds": [
       [
         "function build()",
-        "const future = true;",
+        "const project = true;",
         "git commit -m \"ship\""
       ],
       [
-        "<Opportunity />",
+        "<Developer />",
         "collaborate()",
-        "while (learning) { grow(); }"
+        "while (learning) { build(); }"
       ],
       [
-        "status: online",
-        "pullRequest.merge()",
+        "status: building",
+        "pullRequest.open()",
         "hello, world!"
       ]
     ]
   },
   "howItWorks": {
-    "eyebrow": "Del primer mensaje a una conversación profesional",
-    "title": "Un camino corto para empezar a aportar",
-    "description": "Entras, localizas tu espacio y te involucras poco a poco. La confianza se construye con lo que compartes, no con una pila de formularios.",
+    "title": "Empieza aportando, no rellenando formularios",
+    "description": "Entras al Discord, encuentras tu espacio y empiezas a participar. Aquí las oportunidades nacen de lo que haces y de las personas que conoces.",
     "steps": [
       {
         "title": "Entras al Discord",
-        "description": "Te presentas, eliges los temas que te interesan y encuentras una conversación a tu medida."
+        "description": "Te presentas, eliges los canales que te interesan y empiezas a conocer a gente que trabaja en tecnología."
       },
       {
-        "title": "Construyes en público",
-        "description": "Respondes dudas, muestras avances y colaboras en ejercicios que dejan rastro de tu criterio."
+        "title": "Participas y construyes",
+        "description": "Respondes dudas, compartes proyectos, colaboras y participas en retos que te permiten demostrar lo que sabes."
       },
       {
-        "title": "Te conocen en acción",
-        "description": "Tus decisiones y tu manera de colaborar empiezan a hablar por ti dentro de la red."
+        "title": "Muestras cómo trabajas",
+        "description": "Tus proyectos, aportes y forma de colaborar dejan una idea más clara de lo que puedes hacer."
       },
       {
-        "title": "Te contactan directo",
-        "description": "Cuando encajas con una necesidad, el contacto nace de algo que ambas partes ya han visto."
+        "title": "Abres nuevas conversaciones",
+        "description": "Cuando una empresa necesita un perfil como el tuyo, ya existe algo más que un CV: hay trabajo que mostrar y una comunidad que te conoce."
       }
     ]
   },
   "talent": {
-    "eyebrow": "Un perfil que cuenta algo de ti",
-    "title": "Pon contexto a lo que sabes hacer",
-    "description": "Comparte tecnologías, nivel y disponibilidad junto con proyectos, decisiones y aprendizajes. Así quien te descubre entiende mejor dónde puedes encajar.",
+    "title": "Muestra lo que sabes hacer",
+    "description": "Publica tu perfil con tu stack, nivel y disponibilidad. Añade tus proyectos y deja que tu trabajo dé contexto a tu experiencia.",
     "points": [
-      "Te lee una persona, no un filtro",
-      "Tu nivel actual también cuenta",
-      "Participar no tiene coste"
+      "Te lee una persona, no un filtro automático",
+      "No necesitas ser senior",
+      "Publicar tu perfil no tiene coste"
     ],
     "profile": {
       "initials": "JS",
       "name": "Javier Santos",
       "role": "Frontend Engineer · En búsqueda activa",
       "status": "Disponible",
-      "stack": "Stack demostrado",
+      "stack": "Stack",
       "project": "Dashboard de Analítica Distribuida",
       "projectNote": "Implementación con carga incremental y WebSockets.",
-      "result": "Proyecto destacado en la comunidad",
+      "result": "Proyecto compartido con la comunidad",
       "stats": "Código compartido · Charlas técnicas"
     },
     "tags": [
@@ -117,87 +113,81 @@
     ]
   },
   "companies": {
-    "eyebrow": "Decidir con señales reales",
-    "title": "Descubre cómo resuelve antes de sentarte a contratar",
-    "description": "Explica el reto y encuentra perfiles que ya han dejado muestras de trabajo, conversaciones y entregas. El currículum es solo el punto de partida.",
-    "traditional": "Buscar a ciegas",
-    "traditionalText": "Comparar candidaturas parecidas sin saber cómo piensa cada persona cuando aparece un problema de verdad.",
+    "title": "Conoce cómo trabajan antes de contratar",
+    "description": "Publica lo que necesitas y descubre perfiles que ya han compartido proyectos, participado en retos y conversado con la comunidad. El CV es solo el punto de partida.",
+    "traditional": "Buscar solo por CV",
+    "traditionalText": "Comparar candidaturas parecidas sin saber cómo piensa una persona cuando tiene que resolver un problema real.",
     "approach": "Buscar con contexto",
-    "approachText": "Revisar aportes, seguir conversaciones y abrir una charla con perfiles que ya han demostrado cómo trabajan.",
+    "approachText": "Revisar proyectos, aportes y conversaciones para conocer mejor cómo trabaja cada perfil antes de abrir una conversación.",
     "benefits": [
-      "Menos ruido",
+      "Menos filtros",
       "Más contexto",
       "Contacto directo"
     ],
-    "benefitDescription": "Una señal concreta para tomar mejores decisiones."
+    "benefitDescription": "Conoce el trabajo que hay detrás de cada perfil."
   },
   "tournaments": {
-    "eyebrow": "Práctica con una meta visible",
-    "title": "Convierte una idea en algo que puedas defender",
-    "description": "Los retos te obligan a tomar decisiones, explicar tu solución y escuchar al jurado. El resultado te acompaña más allá del torneo. Esta web empezó así.",
+    "title": "Aprende, construye y enseña lo que sabes",
+    "description": "Resuelve un reto, explica tus decisiones y recibe una evaluación con criterios públicos. El resultado no se queda en el torneo: puedes enseñarlo en una entrevista, en tu perfil o en tu próxima conversación profesional. Esta misma web empezó así.",
     "active": "Reto abierto",
     "challenge": "Reto Frontend & Product Design",
     "cta": "Participar en este reto",
     "features": [
       "Jurado técnico",
       "Criterios públicos",
-      "Impacto real"
+      "Trabajo que puedes enseñar"
     ],
-    "featureDescription": "Criterios claros para mejorar y enseñar tu proceso."
+    "featureDescription": "Construye algo real y ten una nueva pieza para mostrar lo que sabes hacer."
   },
   "networking": {
-    "eyebrow": "Una red que se mueve",
-    "title": "Saber quién está construyendo también abre puertas",
-    "description": "Encuentra canales por área, pide ayuda a gente del sector y descubre búsquedas que llegan por confianza antes de convertirse en un anuncio.",
+    "title": "Los buenos trabajos no siempre llegan a una oferta",
+    "description": "Muchas oportunidades empiezan cuando alguien pregunta, recomienda a otra persona o comparte una búsqueda con su comunidad. En TechToJob te enteras porque estás dentro.",
     "cards": [
-      "Tu área técnica",
+      "Canales por área técnica",
       "Ayuda cuando te atascas",
-      "Recomendaciones con nombre"
+      "Oportunidades que alguien comparte"
     ],
-    "cardNote": "Gente que participa de verdad"
+    "cardNote": "Personas del sector hablando y colaborando de verdad"
   },
   "news": {
-    "eyebrow": "Actividad reciente",
-    "title": "Novedades y pulso del proyecto",
+    "title": "Noticias, torneos y novedades tech",
     "items": [
       {
         "category": "Torneos",
-        "date": "Fecha por confirmar",
-        "title": "Del reto compartido a una primera versión de TechToJob",
-        "summary": "Una mirada al trabajo que convierte una entrega técnica en una pieza que sigue creciendo."
+        "date": "18 Sep 2026",
+        "title": "De un reto a una web para toda la comunidad",
+        "summary": "Cómo un reto técnico puede convertirse en un proyecto que sigue creciendo después de la entrega."
       },
       {
         "category": "Comunidad",
-        "date": "Fecha por confirmar",
-        "title": "La pregunta adecuada puede ahorrar una tarde entera",
-        "summary": "Historias pequeñas de ayuda entre personas que trabajan con herramientas parecidas."
+        "date": "12 Sep 2026",
+        "title": "Cuando una pregunta encuentra respuesta",
+        "summary": "Compartir una duda puede abrir una conversación, resolver un bloqueo y conectar con alguien del sector."
       },
       {
         "category": "Oportunidades",
-        "date": "Fecha por confirmar",
-        "title": "Lo que un perfil no cuenta cuando solo enumera tecnologías",
-        "summary": "Las señales que ayudan a entender cómo piensa alguien cuando todavía está aprendiendo."
+        "date": "05 Sep 2026",
+        "title": "Tu stack cuenta, pero tu trabajo cuenta más",
+        "summary": "Por qué enseñar proyectos y decisiones ayuda a entender lo que hay detrás de una lista de tecnologías."
       }
     ],
-    "readMore": "Leer más ↗"
+    "readMore": "Leer más"
   },
   "newsletter": {
-    "eyebrow": "TechToJob / actualización semanal",
-    "title": "Una selección técnica para empezar la semana",
-    "description": "Los lunes recibirás conversaciones interesantes, oportunidades que circulan por la comunidad, nuevos retos y recursos que merecen una pausa. Solo un correo semanal.",
+    "title": "Lo que merece la pena saber esta semana",
+    "description": "Cada semana recibirás una selección de oportunidades, nuevos torneos, novedades de la comunidad y recursos tech que merece la pena conocer.",
     "placeholder": "Tu correo electrónico",
-    "cta": "Quiero esa selección semanal",
+    "cta": "Quiero recibir la selección",
     "success": "¡Listo! La próxima selección llegará el lunes.",
-    "privacy": "Sin mensajes diarios ni ruido. Te das de baja cuando quieras."
+    "privacy": "Un correo a la semana. Sin spam. Te das de baja cuando quieras."
   },
   "closing": {
-    "eyebrow": "Cuando quieras empezar",
-    "title": "Tu siguiente conversación profesional puede empezar hoy",
-    "description": "Pasa por Discord, mira los canales y encuentra una forma pequeña de participar. Lo demás se construye con tiempo.",
+    "title": "No esperes a que aparezca una vacante",
+    "description": "Entra al Discord, conoce a la comunidad y encuentra una forma de participar. Empieza mostrando lo que sabes hacer.",
     "cta": "Entrar al Discord"
   },
   "footer": {
-    "description": "Un lugar para compartir trabajo, resolver problemas y coincidir con equipos técnicos.",
+    "description": "Comunidad de desarrolladores y empresas tech para compartir proyectos, resolver problemas y descubrir oportunidades.",
     "copyright": "© TechToJob. 2026.",
     "groups": [
       {
