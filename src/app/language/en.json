@@ -1,7 +1,12 @@
 {
   "brand": {
     "name": "TechToJob",
-    "logoAlt": "Logo de TechToJob"
+    "logoAlt": "TechToJob logo"
+  },
+  "accessibility": {
+    "mainNavigation": "Main navigation",
+    "communityLinks": "Community links",
+    "home": "Home"
   },
   "metadata": {
     "title": "TechToJob — Community for Developers and Tech Companies",
@@ -29,7 +34,38 @@
     "messageTitle": "Tech Lead",
     "messageNote": "Saw your work in the challenge",
     "message": "I liked how you solved the problem. Want to talk?",
-    "caption": "Get known by what you build"
+    "caption": "Get known by what you build",
+    "codeRain": [
+      "</>",
+      "const",
+      "{ }",
+      "npm run",
+      "=>",
+      "async",
+      "git push",
+      "0101",
+      "return",
+      "deploy()",
+      "API",
+      ";"
+    ],
+    "clouds": [
+      [
+        "function build()",
+        "const project = true;",
+        "git commit -m \"ship\""
+      ],
+      [
+        "<Developer />",
+        "collaborate()",
+        "while (learning) { build(); }"
+      ],
+      [
+        "status: building",
+        "pullRequest.open()",
+        "hello, world!"
+      ]
+    ]
   },
   "howItWorks": {
     "title": "How it works",
@@ -62,6 +98,7 @@
       "Free access for developers"
     ],
     "profile": {
+      "initials": "JS",
       "name": "Javier Santos",
       "role": "Frontend Developer · Open to work",
       "status": "Available",
