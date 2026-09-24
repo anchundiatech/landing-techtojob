@@ -25,7 +25,6 @@ export function Hero({ content }: { content: Messages["hero"] }) {
       <div className="hero-bg" aria-hidden="true" />
       <div className="shell hero-content">
         <div className="hero-copy">
-          <p className="eyebrow">{content.eyebrow}</p>
           <h1 id="hero-title">
             <HeroTitle title={content.title} accent={content.titleAccent} />
           </h1>
