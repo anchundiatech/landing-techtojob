@@ -1,0 +1,276 @@
+{
+  "brand": {
+    "name": "TechToJob",
+    "logoAlt": "Logo de TechToJob"
+  },
+  "accessibility": {
+    "mainNavigation": "Navegación principal",
+    "communityLinks": "Enlaces de comunidad",
+    "home": "inicio"
+  },
+  "metadata": {
+    "title": "TechToJob | Comunidad y oportunidades tech",
+    "description": "La comunidad donde desarrolladores y empresas se conocen construyendo proyectos reales."
+  },
+  "nav": {
+    "howItWorks": "Cómo funciona",
+    "talent": "Talento",
+    "companies": "Empresas",
+    "tournaments": "Torneos",
+    "networking": "Networking",
+    "news": "Noticias",
+    "discord": "Entrar al Discord"
+  },
+  "hero": {
+    "eyebrow": "Una comunidad técnica para moverte con criterio",
+    "title": "Haz que tu forma de trabajar se vea",
+    "titleAccent": "se vea",
+    "description": "TechToJob reúne a quienes programan y a los equipos que buscan colaborar. Participas en conversaciones, resuelves retos y dejas señales útiles sobre lo que sabes hacer.",
+    "cta": "Entrar al Discord",
+    "secondaryCta": "Ver cómo funciona",
+    "code": "const status = 'shipping';",
+    "codeNote": "Aprobado por el jurado comunitario",
+    "messageTitle": "Tech Lead en Fintech",
+    "messageNote": "Vio tu Pull Request en el reto",
+    "message": "Nos encantó cómo estructuraste el estado. ¿Hablamos mañana?",
+    "caption": "Despegue sin intermediarios",
+    "codeRain": [
+      "</>",
+      "const",
+      "{ }",
+      "npm run",
+      "=>",
+      "async",
+      "git push",
+      "0101",
+      "return",
+      "deploy()",
+      "API",
+      ";"
+    ],
+    "clouds": [
+      [
+        "function build()",
+        "const future = true;",
+        "git commit -m \"ship\""
+      ],
+      [
+        "<Opportunity />",
+        "collaborate()",
+        "while (learning) { grow(); }"
+      ],
+      [
+        "status: online",
+        "pullRequest.merge()",
+        "hello, world!"
+      ]
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "Del primer mensaje a una conversación profesional",
+    "title": "Un camino corto para empezar a aportar",
+    "description": "Entras, localizas tu espacio y te involucras poco a poco. La confianza se construye con lo que compartes, no con una pila de formularios.",
+    "steps": [
+      {
+        "title": "Entras al Discord",
+        "description": "Te presentas, eliges los temas que te interesan y encuentras una conversación a tu medida."
+      },
+      {
+        "title": "Construyes en público",
+        "description": "Respondes dudas, muestras avances y colaboras en ejercicios que dejan rastro de tu criterio."
+      },
+      {
+        "title": "Te conocen en acción",
+        "description": "Tus decisiones y tu manera de colaborar empiezan a hablar por ti dentro de la red."
+      },
+      {
+        "title": "Te contactan directo",
+        "description": "Cuando encajas con una necesidad, el contacto nace de algo que ambas partes ya han visto."
+      }
+    ]
+  },
+  "talent": {
+    "eyebrow": "Un perfil que cuenta algo de ti",
+    "title": "Pon contexto a lo que sabes hacer",
+    "description": "Comparte tecnologías, nivel y disponibilidad junto con proyectos, decisiones y aprendizajes. Así quien te descubre entiende mejor dónde puedes encajar.",
+    "points": [
+      "Te lee una persona, no un filtro",
+      "Tu nivel actual también cuenta",
+      "Participar no tiene coste"
+    ],
+    "profile": {
+      "initials": "JS",
+      "name": "Javier Santos",
+      "role": "Frontend Engineer · En búsqueda activa",
+      "status": "Disponible",
+      "stack": "Stack demostrado",
+      "project": "Dashboard de Analítica Distribuida",
+      "projectNote": "Implementación con carga incremental y WebSockets.",
+      "result": "Proyecto destacado en la comunidad",
+      "stats": "Código compartido · Charlas técnicas"
+    },
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "FastAPI"
+    ]
+  },
+  "companies": {
+    "eyebrow": "Decidir con señales reales",
+    "title": "Descubre cómo resuelve antes de sentarte a contratar",
+    "description": "Explica el reto y encuentra perfiles que ya han dejado muestras de trabajo, conversaciones y entregas. El currículum es solo el punto de partida.",
+    "traditional": "Buscar a ciegas",
+    "traditionalText": "Comparar candidaturas parecidas sin saber cómo piensa cada persona cuando aparece un problema de verdad.",
+    "approach": "Buscar con contexto",
+    "approachText": "Revisar aportes, seguir conversaciones y abrir una charla con perfiles que ya han demostrado cómo trabajan.",
+    "benefits": [
+      "Menos ruido",
+      "Más contexto",
+      "Contacto directo"
+    ],
+    "benefitDescription": "Una señal concreta para tomar mejores decisiones."
+  },
+  "tournaments": {
+    "eyebrow": "Práctica con una meta visible",
+    "title": "Convierte una idea en algo que puedas defender",
+    "description": "Los retos te obligan a tomar decisiones, explicar tu solución y escuchar al jurado. El resultado te acompaña más allá del torneo. Esta web empezó así.",
+    "active": "Reto abierto",
+    "challenge": "Reto Frontend & Product Design",
+    "cta": "Participar en este reto",
+    "features": [
+      "Jurado técnico",
+      "Criterios públicos",
+      "Impacto real"
+    ],
+    "featureDescription": "Criterios claros para mejorar y enseñar tu proceso."
+  },
+  "networking": {
+    "eyebrow": "Una red que se mueve",
+    "title": "Saber quién está construyendo también abre puertas",
+    "description": "Encuentra canales por área, pide ayuda a gente del sector y descubre búsquedas que llegan por confianza antes de convertirse en un anuncio.",
+    "cards": [
+      "Tu área técnica",
+      "Ayuda cuando te atascas",
+      "Recomendaciones con nombre"
+    ],
+    "cardNote": "Gente que participa de verdad"
+  },
+  "news": {
+    "eyebrow": "Actividad reciente",
+    "title": "Novedades y pulso del proyecto",
+    "items": [
+      {
+        "category": "Torneos",
+        "date": "Fecha por confirmar",
+        "title": "Del reto compartido a una primera versión de TechToJob",
+        "summary": "Una mirada al trabajo que convierte una entrega técnica en una pieza que sigue creciendo."
+      },
+      {
+        "category": "Comunidad",
+        "date": "Fecha por confirmar",
+        "title": "La pregunta adecuada puede ahorrar una tarde entera",
+        "summary": "Historias pequeñas de ayuda entre personas que trabajan con herramientas parecidas."
+      },
+      {
+        "category": "Oportunidades",
+        "date": "Fecha por confirmar",
+        "title": "Lo que un perfil no cuenta cuando solo enumera tecnologías",
+        "summary": "Las señales que ayudan a entender cómo piensa alguien cuando todavía está aprendiendo."
+      }
+    ],
+    "readMore": "Leer más ↗"
+  },
+  "newsletter": {
+    "eyebrow": "TechToJob / actualización semanal",
+    "title": "Una selección técnica para empezar la semana",
+    "description": "Los lunes recibirás conversaciones interesantes, oportunidades que circulan por la comunidad, nuevos retos y recursos que merecen una pausa. Solo un correo semanal.",
+    "placeholder": "Tu correo electrónico",
+    "cta": "Quiero esa selección semanal",
+    "success": "¡Listo! La próxima selección llegará el lunes.",
+    "privacy": "Sin mensajes diarios ni ruido. Te das de baja cuando quieras."
+  },
+  "closing": {
+    "eyebrow": "Cuando quieras empezar",
+    "title": "Tu siguiente conversación profesional puede empezar hoy",
+    "description": "Pasa por Discord, mira los canales y encuentra una forma pequeña de participar. Lo demás se construye con tiempo.",
+    "cta": "Entrar al Discord"
+  },
+  "footer": {
+    "description": "Un lugar para compartir trabajo, resolver problemas y coincidir con equipos técnicos.",
+    "copyright": "© TechToJob. 2026.",
+    "groups": [
+      {
+        "title": "Talento",
+        "links": [
+          {
+            "href": "#talento",
+            "label": "Publica tu perfil"
+          },
+          {
+            "href": "#torneos",
+            "label": "Participa en torneos"
+          }
+        ]
+      },
+      {
+        "title": "Empresas",
+        "links": [
+          {
+            "href": "#empresas",
+            "label": "Publica una búsqueda"
+          },
+          {
+            "href": "#talento",
+            "label": "Consulta perfiles"
+          }
+        ]
+      },
+      {
+        "title": "Comunidad",
+        "links": [
+          {
+            "href": "#networking",
+            "label": "Canales y networking"
+          },
+          {
+            "href": "#noticias",
+            "label": "Noticias"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "href": "#aviso-legal",
+            "label": "Aviso legal"
+          },
+          {
+            "href": "#privacidad",
+            "label": "Privacidad"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/h9FFgKdkRd"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/techtojob/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/techtojob"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/techtojob"
+      }
+    ],
+    "legalNote": "TechToJob no garantiza empleo. Las oportunidades dependen de cada proceso y de cada empresa."
+  }
+}
