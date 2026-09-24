@@ -3,17 +3,14 @@ import type { Messages } from "../language";
 
 const discordUrl = "https://discord.gg/h9FFgKdkRd";
 function Heading({
-  eyebrow,
   title,
   description,
 }: {
-  eyebrow: string;
   title: string;
   description?: string;
 }) {
   return (
     <div className="section-heading">
-      <p className="eyebrow">{eyebrow}</p>
       <h2>{title}</h2>
       {description && <p>{description}</p>}
     </div>
@@ -155,9 +152,7 @@ export function Tournaments({ content }: { content: Messages["tournaments"] }) {
         </div>
         <article className="tournament-card">
           <div>
-            <span className="live-dot" />{" "}
-            <span className="eyebrow">{content.active}</span>
-            <h3>{content.challenge}</h3>
+            <span className="live-dot" /> <h3>{content.challenge}</h3>
           </div>
           <Link
             className="button button-compact"
@@ -214,15 +209,17 @@ export function News({ content }: { content: Messages["news"] }) {
         <div id="news-title">
           <Heading {...content} />
         </div>
+
         <div className="news-grid">
           {content.items.map((item) => (
-            <article key={item}>
+            <article key={item.title}>
               <div className="news-meta">
-                <span className="eyebrow">{item.category}</span>
                 <time>{item.date}</time>
               </div>
+
               <h3>{item.title}</h3>
               <p>{item.summary}</p>
+
               <Link href="#inicio">{content.readMore}</Link>
             </article>
           ))}
@@ -236,7 +233,6 @@ export function Closing({ content }: { content: Messages["closing"] }) {
   return (
     <section className="closing section" aria-labelledby="closing-title">
       <div className="shell closing-inner">
-        <p className="eyebrow">{content.eyebrow}</p>
         <h2 id="closing-title">{content.title}</h2>
         <p>{content.description}</p>
         <Link
