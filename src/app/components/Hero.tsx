@@ -3,13 +3,7 @@ import type { Messages } from "../language";
 
 const discordUrl = "https://discord.gg/h9FFgKdkRd";
 
-function HeroTitle({
-  title,
-  accent,
-}: {
-  title: string;
-  accent: string;
-}) {
+function HeroTitle({ title, accent }: { title: string; accent: string }) {
   if (!accent || !title.includes(accent)) {
     return title;
   }
@@ -44,9 +38,6 @@ export function Hero({ content }: { content: Messages["hero"] }) {
               rel="noreferrer"
             >
               {content.cta}
-            </Link>
-            <Link className="button-ghost" href="#como-funciona">
-              {content.secondaryCta}
             </Link>
           </div>
         </div>
