@@ -19,7 +19,9 @@
     "tournaments": "Torneos",
     "networking": "Networking",
     "news": "Noticias",
-    "discord": "Entrar al Discord"
+    "discord": "Entrar al Discord",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú"
   },
   "hero": {
     "title": "Que te conozcan antes de contratarte",
@@ -131,7 +133,7 @@
     "description": "Resuelve un reto, explica tus decisiones y recibe una evaluación con criterios públicos. El resultado no se queda en el torneo: puedes enseñarlo en una entrevista, en tu perfil o en tu próxima conversación profesional. Esta misma web empezó así.",
     "active": "Reto abierto",
     "challenge": "Reto Frontend & Product Design",
-    "cta": "Participar en este reto",
+    "cta": "Ir al reto",
     "features": [
       "Jurado técnico",
       "Criterios públicos",

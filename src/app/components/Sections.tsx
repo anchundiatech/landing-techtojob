@@ -1,7 +1,14 @@
 import Link from "next/link";
+import type { CSSProperties } from "react";
 import type { Messages } from "../language";
+import { DiscordIcon } from "./DiscordIcon";
 
 const discordUrl = "https://discord.gg/h9FFgKdkRd";
+
+function delay(seconds: number): CSSProperties {
+  return { "--reveal-delay": `${seconds}s` } as CSSProperties;
+}
+
 function Heading({
   title,
   description,
@@ -10,7 +17,7 @@ function Heading({
   description?: string;
 }) {
   return (
-    <div className="section-heading">
+    <div className="section-heading" data-reveal="">
       <h2>{title}</h2>
       {description && <p>{description}</p>}
     </div>
@@ -30,7 +37,12 @@ export function HowItWorks({ content }: { content: Messages["howItWorks"] }) {
         </div>
         <div className="steps-grid">
           {content.steps.map((step, index) => (
-            <article className="step" key={step.title}>
+            <article
+              className="step"
+              key={step.title}
+              data-reveal=""
+              style={delay(index * 0.1)}
+            >
               <span className="step-number">
                 {String(index + 1).padStart(2, "0")}
               </span>
@@ -52,7 +64,7 @@ export function Talent({ content }: { content: Messages["talent"] }) {
           <div id="talent-title">
             <Heading {...content} />
           </div>
-          <ul className="check-list">
+          <ul className="check-list" data-reveal="">
             {content.points.map((point) => (
               <li key={point}>
                 <span aria-hidden="true">✓</span>
@@ -61,7 +73,9 @@ export function Talent({ content }: { content: Messages["talent"] }) {
             ))}
           </ul>
         </div>
-        <ProfileCard content={content.profile} tags={content.tags} />
+        <div data-reveal="right">
+          <ProfileCard content={content.profile} tags={content.tags} />
+        </div>
       </div>
     </section>
   );
@@ -111,11 +125,15 @@ export function Companies({ content }: { content: Messages["companies"] }) {
     >
       <div className="shell split-layout reverse">
         <div className="comparison">
-          <article>
+          <article data-reveal="left">
             <span className="comparison-label">{content.traditional}</span>
             <p>{content.traditionalText}</p>
           </article>
-          <article className="comparison-highlight">
+          <article
+            className="comparison-highlight"
+            data-reveal="left"
+            style={delay(0.12)}
+          >
             <span className="comparison-label">{content.approach}</span>
             <p>{content.approachText}</p>
           </article>
@@ -123,8 +141,12 @@ export function Companies({ content }: { content: Messages["companies"] }) {
         <div id="companies-title">
           <Heading {...content} />
           <div className="benefits">
-            {content.benefits.map((benefit) => (
-              <article key={benefit}>
+            {content.benefits.map((benefit, index) => (
+              <article
+                key={benefit}
+                data-reveal=""
+                style={delay(0.1 + index * 0.08)}
+              >
                 <strong>{benefit}</strong>
                 <p>{content.benefitDescription}</p>
               </article>
@@ -148,14 +170,14 @@ export function Tournaments({ content }: { content: Messages["tournaments"] }) {
           <div id="tournaments-title">
             <Heading {...content} />
           </div>
-          <p>{content.description}</p>
+          <p data-reveal="right">{content.description}</p>
         </div>
-        <article className="tournament-card">
+        <article className="tournament-card" data-reveal="scale">
           <div>
             <span className="live-dot" /> <h3>{content.challenge}</h3>
           </div>
           <Link
-            className="button button-compact"
+            className="button button-small"
             href={discordUrl}
             target="_blank"
             rel="noreferrer"
@@ -189,7 +211,11 @@ export function Networking({ content }: { content: Messages["networking"] }) {
         </div>
         <div className="feature-grid">
           {content.cards.map((card, index) => (
-            <article key={card}>
+            <article
+              key={card}
+              data-reveal=""
+              style={delay(index * 0.1)}
+            >
               <span className="feature-index">0{index + 1}</span>
               <h3>{card}</h3>
               <p>{content.description}</p>
@@ -211,8 +237,12 @@ export function News({ content }: { content: Messages["news"] }) {
         </div>
 
         <div className="news-grid">
-          {content.items.map((item) => (
-            <article key={item.title}>
+          {content.items.map((item, index) => (
+            <article
+              key={item.title}
+              data-reveal=""
+              style={delay(index * 0.1)}
+            >
               <div className="news-meta">
                 <time>{item.date}</time>
               </div>
@@ -232,7 +262,7 @@ export function News({ content }: { content: Messages["news"] }) {
 export function Closing({ content }: { content: Messages["closing"] }) {
   return (
     <section className="closing section" aria-labelledby="closing-title">
-      <div className="shell closing-inner">
+      <div className="shell closing-inner" data-reveal="scale">
         <h2 id="closing-title">{content.title}</h2>
         <p>{content.description}</p>
         <Link
@@ -241,6 +271,7 @@ export function Closing({ content }: { content: Messages["closing"] }) {
           target="_blank"
           rel="noreferrer"
         >
+          <DiscordIcon size={18} />
           {content.cta}
         </Link>
       </div>

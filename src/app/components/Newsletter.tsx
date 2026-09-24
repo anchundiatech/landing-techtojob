@@ -7,7 +7,7 @@ export function Newsletter({ content }: { content: Messages["newsletter"] }) {
       aria-labelledby="newsletter-title"
     >
       <div className="shell">
-        <div className="newsletter-inner">
+        <div className="newsletter-inner" data-reveal="scale">
           <h2 id="newsletter-title">{content.title}</h2>
           <p>{content.description}</p>
           <form action="#newsletter-success">
@@ -26,9 +26,6 @@ export function Newsletter({ content }: { content: Messages["newsletter"] }) {
                 {content.cta}
               </button>
             </div>
-            <p id="newsletter-success" className="form-note">
-              {content.success}
-            </p>
           </form>
         </div>
       </div>

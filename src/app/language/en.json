@@ -1,4 +1,8 @@
 {
+  "brand": {
+    "name": "TechToJob",
+    "logoAlt": "Logo de TechToJob"
+  },
   "metadata": {
     "title": "TechToJob — Community for Developers and Tech Companies",
     "description": "A community where developers and tech companies connect by building, sharing and participating."
@@ -10,7 +14,9 @@
     "tournaments": "Tournaments",
     "networking": "Networking",
     "news": "News",
-    "discord": "Join Discord"
+    "discord": "Join Discord",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
   },
   "hero": {
     "title": "More than a job board.",
@@ -64,7 +70,13 @@
       "projectNote": "Built a dashboard with real-time data and incremental loading.",
       "result": "Featured in a community tournament",
       "stats": "Projects · Challenges · Community contributions"
-    }
+    },
+    "tags": [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "FastAPI"
+    ]
   },
   "companies": {
     "title": "See how people work before hiring",

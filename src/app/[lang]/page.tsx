@@ -1,6 +1,7 @@
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
+import { notFound } from "next/navigation";
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import { Hero } from "../components/Hero";
 import {
   HowItWorks,
   Talent,
@@ -9,15 +10,26 @@ import {
   Networking,
   News,
   Closing,
-} from "./components/Sections";
-import { Newsletter } from "./components/Newsletter";
-import { getMessages } from "./language";
+} from "../components/Sections";
+import { Newsletter } from "../components/Newsletter";
+import { ScrollReveal } from "../components/ScrollReveal";
+import { getMessages, languages, type Language } from "../language";
 
-export default function Home() {
-  const content = getMessages("es");
+const locales = Object.keys(languages) as Language[];
+
+export default async function Home({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  if (!locales.includes(lang as Language)) notFound();
+
+  const content = getMessages(lang as Language);
 
   return (
     <>
+      <ScrollReveal />
       <Header content={content} />
       <main>
         <Hero content={content.hero} />
