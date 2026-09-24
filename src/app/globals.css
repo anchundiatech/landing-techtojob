@@ -182,14 +182,7 @@ a {
   position: relative;
   z-index: 2;
 }
-.eyebrow {
-  margin: 0 0 17px;
-  color: var(--mint);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
+
 h1,
 h2,
 h3,
@@ -624,9 +617,7 @@ h1 {
   justify-content: space-between;
   gap: 12px;
 }
-.news-meta .eyebrow {
-  margin-bottom: 0;
-}
+
 .news-meta time {
   color: var(--muted);
   font-size: 10px;
@@ -655,13 +646,7 @@ h1 {
 .newsletter h2 {
   font-size: clamp(28px, 4vw, 44px);
 }
-.newsletter-inner > p:not(.eyebrow) {
-  max-width: 540px;
-  margin: 0 auto 28px;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.7;
-}
+
 .newsletter-form {
   display: flex;
   max-width: 540px;
@@ -746,13 +731,7 @@ h1 {
   line-height: 1.05;
   letter-spacing: -0.06em;
 }
-.closing-inner > p:not(.eyebrow) {
-  max-width: 560px;
-  margin: 0 auto 28px;
-  color: var(--muted);
-  line-height: 1.7;
-  font-size: 14px;
-}
+
 .sr-only {
   position: absolute;
   width: 1px;
