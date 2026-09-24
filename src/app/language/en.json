@@ -1,13 +1,220 @@
 {
-	"metadata": { "title": "TechToJob | Tech community and opportunities", "description": "Where developers and companies meet by building real projects." },
-	"nav": { "howItWorks": "How it works", "talent": "Talent", "companies": "Companies", "tournaments": "Tournaments", "networking": "Networking", "news": "News", "discord": "Join Discord" },
-	"hero": { "eyebrow": "Build your next opportunity", "title": "The job you want is not on a job board", "titleAccent": "not on a job board", "description": "On a job board you send your CV and disappear among automated rejections. At TechToJob you build real projects, join tournaments and let companies see you work before a role opens.", "cta": "Join Discord", "secondaryCta": "See how it works", "code": "const status = 'shipping';", "codeNote": "Approved by the community jury", "messageTitle": "Fintech Tech Lead", "messageNote": "Saw your Pull Request in the challenge", "message": "We loved how you structured the state. Shall we talk tomorrow?", "caption": "Take off without middlemen" },
-	"howItWorks": { "eyebrow": "A clear path", "title": "From joining the chat to your next opportunity", "description": "No endless forms or weeks waiting for an answer that never comes.", "steps": [{ "title": "Join Discord", "description": "Introduce yourself, pick your stack channels and see what is being built today." }, { "title": "Build in public", "description": "Join tournaments, help others and share real code as you work." }, { "title": "Get known in action", "description": "Developers and technical leaders see how you solve problems before a role exists." }, { "title": "Get contacted directly", "description": "No middlemen or automated filters rejecting you for lacking years of experience." }] },
-	"talent": { "eyebrow": "A profile with real value", "title": "Publish your profile and let real people read it", "description": "A static list of keywords does not show your judgment. TechToJob lets you show working solutions and the thinking behind your decisions.", "points": ["No screening algorithms", "You do not need to be senior", "100% free access"], "profile": { "name": "Javier Santos", "role": "Frontend Engineer · Open to work", "status": "Available", "stack": "Proven stack", "project": "Distributed Analytics Dashboard", "projectNote": "Incremental loading and WebSockets implementation.", "result": "1st Place · Tournament #03", "stats": "14 merged PRs · 3 talks given" } },
-	"companies": { "eyebrow": "Evidence-based hiring", "title": "See how people work before deciding who to hire", "description": "A resume says what someone claims to know. Watching a developer ship a challenge or debate architecture shows how they really think.", "traditional": "The traditional way", "traditionalText": "Download hundreds of PDFs, read identical tool lists and run preliminary interviews to find out whether they can actually code.", "approach": "The TechToJob approach", "approachText": "See code in repositories, examine real technical debates and talk to people without barriers.", "benefits": ["No wasted time", "Verified profiles", "A real technical environment"] },
-	"tournaments": { "eyebrow": "Code used in production", "title": "Technical tournaments: learn, prove yourself and leave a mark", "description": "What you build does not sit in a drawer: it strengthens your portfolio and can become part of active projects.", "active": "Status: Active", "challenge": "Frontend & Product Design Challenge", "cta": "Join this challenge", "features": ["Technical jury", "Public criteria", "Real impact"] },
-	"networking": { "eyebrow": "Direct access to information", "title": "The best roles are not posted: you hear about them", "description": "Great hires often happen because someone on the team shares an opening in a channel.", "cards": ["Dedicated channels", "Answers in minutes", "Internal opportunities"] },
-	"news": { "eyebrow": "Recent activity", "title": "Project news and pulse", "items": ["The community web design challenge concludes", "Technical talks on microservices architecture", "New public talent profile directory"] },
-	"newsletter": { "title": "Technical news and opportunities every week", "description": "Every Monday: new opportunities, tournaments and technical resources. One email a week, no spam.", "placeholder": "Your email address", "cta": "Send me the Monday update", "success": "Done! You are on the Monday list." },
-	"footer": { "description": "The community where developers and companies meet by building.", "copyright": "© TechToJob. No inflated numbers." }
+  "metadata": {
+    "title": "TechToJob — Community for Developers and Tech Companies",
+    "description": "A community where developers and tech companies connect by building, sharing and participating."
+  },
+  "nav": {
+    "howItWorks": "How It Works",
+    "talent": "Talent",
+    "companies": "Companies",
+    "tournaments": "Tournaments",
+    "networking": "Networking",
+    "news": "News",
+    "discord": "Join Discord"
+  },
+  "hero": {
+    "title": "More than a job board.",
+    "titleAccent": "A community where you can be seen.",
+    "description": "TechToJob is a community for developers and tech companies in Spanish. Build real projects, join tournaments and connect with people before a job opening even exists.",
+    "cta": "Join Discord",
+    "secondaryCta": "",
+    "code": "const status = 'shipping';",
+    "codeNote": "Built and reviewed by the community",
+    "messageTitle": "Tech Lead",
+    "messageNote": "Saw your work in the challenge",
+    "message": "I liked how you solved the problem. Want to talk?",
+    "caption": "Get known by what you build"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "description": "Join the community, participate and show how you work. Opportunities come from being involved, not from filling out endless forms.",
+    "steps": [
+      {
+        "title": "Join Discord",
+        "description": "Introduce yourself, find your stack channels and see what the community is building."
+      },
+      {
+        "title": "Build and participate",
+        "description": "Join tournaments, help other developers and share what you are working on."
+      },
+      {
+        "title": "Show how you work",
+        "description": "Your projects, code and ideas give people a better idea of how you solve problems."
+      },
+      {
+        "title": "Connect with people",
+        "description": "Companies and developers can discover your work and start a conversation directly."
+      }
+    ]
+  },
+  "talent": {
+    "title": "Show what you can do, not just what is on your CV",
+    "description": "Create a profile with your stack, experience and availability. You can also show the projects and challenges that represent your work.",
+    "points": [
+      "No automatic screening algorithms",
+      "You do not need to be senior",
+      "Free access for developers"
+    ],
+    "profile": {
+      "name": "Javier Santos",
+      "role": "Frontend Developer · Open to work",
+      "status": "Available",
+      "stack": "React · TypeScript · Next.js",
+      "project": "Analytics Dashboard",
+      "projectNote": "Built a dashboard with real-time data and incremental loading.",
+      "result": "Featured in a community tournament",
+      "stats": "Projects · Challenges · Community contributions"
+    }
+  },
+  "companies": {
+    "title": "See how people work before hiring",
+    "description": "A CV tells you what someone says they know. Projects, challenges and technical discussions give you more context about how they actually work.",
+    "traditional": "The traditional way",
+    "traditionalText": "Go through hundreds of CVs, compare the same lists of technologies and interview candidates before knowing how they solve real problems.",
+    "approach": "The TechToJob approach",
+    "approachText": "Explore developer profiles, see their projects and follow their participation in the community before starting a conversation.",
+    "benefits": [
+      "More context",
+      "Real projects",
+      "Direct conversations"
+    ],
+    "benefitDescription": "Get to know the person behind the CV before making a hiring decision."
+  },
+  "tournaments": {
+    "title": "Build something. Show what you know.",
+    "description": "Take part in technical challenges, build real projects and have something concrete to show in your portfolio and interviews.",
+    "active": "Active Tournament",
+    "challenge": "Frontend & Product Design Challenge",
+    "cta": "Join the challenge",
+    "features": [
+      "Public judging criteria",
+      "Technical community jury",
+      "Real projects"
+    ],
+    "featureDescription": "Every tournament gives you a chance to learn, build and make your work visible to the community."
+  },
+  "networking": {
+    "title": "Some opportunities never become job posts",
+    "description": "People often hear about good opportunities through someone they know. That happens here too.",
+    "cards": [
+      "Community channels",
+      "Help from other developers",
+      "Opportunities shared by people"
+    ],
+    "cardNote": "Stay involved and you are more likely to hear what is happening inside the community."
+  },
+  "news": {
+    "title": "What is happening in the community",
+    "items": [
+      {
+        "category": "Tournaments",
+        "date": "Date to be announced",
+        "title": "The community web design challenge",
+        "summary": "Developers put their frontend and design skills to the test in a community challenge."
+      },
+      {
+        "category": "Tech Talks",
+        "date": "Date to be announced",
+        "title": "Technical talks from the community",
+        "summary": "Developers share practical knowledge about architecture, development and real-world projects."
+      },
+      {
+        "category": "Community",
+        "date": "Date to be announced",
+        "title": "New public talent profiles",
+        "summary": "A new way for developers to share their skills, projects and availability."
+      }
+    ],
+    "readMore": "Read more"
+  },
+  "newsletter": {
+    "title": "Get community news and opportunities",
+    "description": "Get updates about tournaments, opportunities, technical content and what is happening in the community.",
+    "placeholder": "Your email address",
+    "cta": "Send me the updates",
+    "success": "Done! You are on the list.",
+    "privacy": "One email when there is something worth sharing. No spam."
+  },
+  "closing": {
+    "title": "Your next opportunity might start with a conversation.",
+    "description": "Join the community, build something and let people see what you can do.",
+    "cta": "Join TechToJob on Discord"
+  },
+  "footer": {
+    "description": "A community where developers and tech companies connect by building.",
+    "copyright": "© TechToJob. All rights reserved.",
+    "groups": [
+      {
+        "title": "For Developers",
+        "links": [
+          {
+            "href": "#how-it-works",
+            "label": "How It Works"
+          },
+          {
+            "href": "#talent",
+            "label": "Talent"
+          }
+        ]
+      },
+      {
+        "title": "For Companies",
+        "links": [
+          {
+            "href": "#companies",
+            "label": "Companies"
+          },
+          {
+            "href": "#tournaments",
+            "label": "Tournaments"
+          }
+        ]
+      },
+      {
+        "title": "Community",
+        "links": [
+          {
+            "href": "#networking",
+            "label": "Networking"
+          },
+          {
+            "href": "#news",
+            "label": "News"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "href": "#privacy",
+            "label": "Privacy"
+          },
+          {
+            "href": "#terms",
+            "label": "Terms"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/h9FFgKdkRd"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/techtojob/"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/techtojob"
+      },
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/techtojob"
+      }
+    ],
+    "legalNote": "TechToJob does not guarantee employment. Opportunities depend on community participation and company needs."
+  }
 }
