@@ -52,7 +52,8 @@ const TOKEN_LINKS: ReadonlyArray<readonly [number, number]> = [
   [10, 11],
 ];
 
-function HeroBackground({ tokens }: { tokens: readonly string[] }) {
+function HeroBackground({ tokens }: { tokens?: readonly string[] }) {
+  const safeTokens = tokens?.length ? tokens : ["</>"];
   return (
     <svg
       className="hero-bg-art"
@@ -90,7 +91,7 @@ function HeroBackground({ tokens }: { tokens: readonly string[] }) {
             className="hero-bg-token"
             style={{ animationDelay: `${0.4 + i * 0.3}s` }}
           >
-            {tokens[i % tokens.length]}
+            {safeTokens[i % safeTokens.length]}
           </text>
         </g>
       ))}
@@ -101,7 +102,7 @@ function HeroBackground({ tokens }: { tokens: readonly string[] }) {
 export function Hero({ content }: { content: Messages["hero"] }) {
   return (
     <section className="hero" id="inicio" aria-labelledby="hero-title">
-      <HeroBackground tokens={content.codeRain} />
+      <HeroBackground tokens={content.codeRain ?? []} />
       <div className="shell hero-content">
         <div className="hero-copy">
           <h1 id="hero-title">
